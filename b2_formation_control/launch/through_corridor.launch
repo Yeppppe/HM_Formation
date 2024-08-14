@@ -1,0 +1,7 @@
+<launch>
+
+    <include file="$(find scene_loading)/launch/b2_corridor.launch"/>
+
+    <node pkg="b2_formation_control" type="through_corridor" name="through_corridor" output="screen"/>
+
+</launch>
