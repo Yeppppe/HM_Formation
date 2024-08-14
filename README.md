@@ -6,3 +6,9 @@ git clone https://github.com/alandefreitas/matplotplusplus.git
 更新cmake的方法 https://blog.csdn.net/qq_17623363/article/details/137194500
 
 更新好后
+在matplotplusplus文件夹下:
+cmake --preset=local
+cmake --build --preset=local
+cmake --install build/local
+
+之后回到src下 catkin_make即可
