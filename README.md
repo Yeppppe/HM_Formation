@@ -1,4 +1,4 @@
-浦宇师兄的这个代码编译需要matplotplusplus作为依赖
+蒲宇师兄的这个代码编译需要matplotplusplus作为依赖
 
 git clone https://github.com/alandefreitas/matplotplusplus.git
 安装说明
